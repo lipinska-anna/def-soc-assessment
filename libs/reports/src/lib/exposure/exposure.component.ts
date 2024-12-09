@@ -1,12 +1,12 @@
-import { AfterContentInit, Component, computed, input } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { SummaryResult } from '../../../../types/src';
-import { EChartsCoreOption } from 'echarts';
-import { NgxEchartsDirective, NgxEchartsModule, provideEchartsCore } from 'ngx-echarts';
+import {AfterContentInit, Component, computed, input} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {SummaryResult} from '../../../../types/src';
+import {EChartsCoreOption} from 'echarts';
+import {NgxEchartsDirective, NgxEchartsModule, provideEchartsCore} from 'ngx-echarts';
 import * as echarts from 'echarts/core';
-import { BarChart, LineChart } from 'echarts/charts';
-import { CanvasRenderer } from 'echarts/renderers';
-import { GridComponent, LegendComponent, TitleComponent, TooltipComponent } from 'echarts/components';
+import {BarChart, LineChart} from 'echarts/charts';
+import {CanvasRenderer} from 'echarts/renderers';
+import {GridComponent, LegendComponent, TitleComponent, TooltipComponent} from 'echarts/components';
 
 @Component({
   selector: 'lib-exposure',
@@ -59,8 +59,7 @@ export class ExposureComponent implements AfterContentInit {
     const ports = Object.keys(report.n_port);
     (this.options['xAxis'] as any).data = ports;
 
-    const portSeries = ports.map(port => (report.n_port as any)[port].n);
-    (this.options['series'] as any)[0].data = portSeries;
+    (this.options['series'] as any)[0].data = ports.map(port => (report.n_port as any)[port].n);
 
   }
 }

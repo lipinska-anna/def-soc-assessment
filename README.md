@@ -2,6 +2,22 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
 
+## Requirements
+
+- node ^v20.18.1
+- Angular ^19.0.0
+- Bootstrap ^5.3.3
+- @angular/material 19.0.2
+- ngx-echarts ^19.0.0
+
+## Installation
+
+No registry to set, just run
+
+```bash
+npm i
+```
+
 ## Development server
 
 To start a local development server, run:
