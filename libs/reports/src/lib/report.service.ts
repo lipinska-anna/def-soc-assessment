@@ -11,13 +11,12 @@ export class ReportService {
 
   public getCachedReports() {
     return this.getReports().pipe(
-      tap((report) => console.log(report)),
       take(1),
       shareReplay(1)
     );
   }
 
   public getReports() {
-    return this.#http.get<SummaryResponse>('assets/data.json')
+    return this.#http.get<SummaryResponse>('data.json')
   }
 }
