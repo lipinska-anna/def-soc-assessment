@@ -1,0 +1,223 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.2.1",
+  "pathMappings": {
+    "tokens": [
+      "./dist/tokens"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "4165385352547808172"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "18168400278403753650"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5331566439708925252"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17038929134016848735"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "5336636969995539451"
+      },
+      {
+        "file": "README.md",
+        "hash": "1943724702509431717"
+      },
+      {
+        "file": "angular.json",
+        "hash": "13756932881420130831"
+      },
+      {
+        "file": "libs/services/src/index.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/services/src/report.service.ts",
+        "hash": "5781445081195147736"
+      },
+      {
+        "file": "libs/types/src/index.ts",
+        "hash": "4261594690560893984"
+      },
+      {
+        "file": "libs/types/src/lib/assets-info.ts",
+        "hash": "3399481065922190176"
+      },
+      {
+        "file": "libs/types/src/lib/cdn.ts",
+        "hash": "7240840071381942260"
+      },
+      {
+        "file": "libs/types/src/lib/dataleak-stats.ts",
+        "hash": "14358661154674185924"
+      },
+      {
+        "file": "libs/types/src/lib/dataleak.ts",
+        "hash": "14104897102477488727"
+      },
+      {
+        "file": "libs/types/src/lib/email-security.ts",
+        "hash": "4758648611063647824"
+      },
+      {
+        "file": "libs/types/src/lib/port-data.ts",
+        "hash": "16087263481879402102"
+      },
+      {
+        "file": "libs/types/src/lib/port.ts",
+        "hash": "11226035754356084308"
+      },
+      {
+        "file": "libs/types/src/lib/report.ts",
+        "hash": "15024524255325467427"
+      },
+      {
+        "file": "libs/types/src/lib/result.ts",
+        "hash": "373035794710028287"
+      },
+      {
+        "file": "libs/types/src/lib/vulnerability-stats.ts",
+        "hash": "4772059356787704685"
+      },
+      {
+        "file": "libs/types/src/lib/vulnerability.ts",
+        "hash": "15102216987059502565"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4548176981497119481"
+      },
+      {
+        "file": "package.json",
+        "hash": "15406445274082019183"
+      },
+      {
+        "file": "projects/tokens/README.md",
+        "hash": "6771801812293185597"
+      },
+      {
+        "file": "projects/tokens/ng-package.json",
+        "hash": "13873980224311061192"
+      },
+      {
+        "file": "projects/tokens/package.json",
+        "hash": "11768776452611506219"
+      },
+      {
+        "file": "projects/tokens/src/lib/data.token.ts",
+        "hash": "14697890984188862244"
+      },
+      {
+        "file": "projects/tokens/src/public-api.ts",
+        "hash": "2046129260231673071"
+      },
+      {
+        "file": "projects/tokens/tsconfig.lib.json",
+        "hash": "2490580910969714525"
+      },
+      {
+        "file": "projects/tokens/tsconfig.lib.prod.json",
+        "hash": "17517552510542404852"
+      },
+      {
+        "file": "projects/tokens/tsconfig.spec.json",
+        "hash": "3978758305355504018"
+      },
+      {
+        "file": "public/favicon.png",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "5625725754865452477"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "10855701225127658290"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "1328947681958493526"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "5028808807012428138"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "4764070755924341506"
+      },
+      {
+        "file": "src/app/homepage/homepage.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/homepage/homepage.component.html",
+        "hash": "2069080868343141772"
+      },
+      {
+        "file": "src/app/homepage/homepage.component.ts",
+        "hash": "15955958436866797398"
+      },
+      {
+        "file": "src/app/main-layout/main-layout.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/main-layout/main-layout.component.html",
+        "hash": "13343871896247039423"
+      },
+      {
+        "file": "src/app/main-layout/main-layout.component.ts",
+        "hash": "4882559589598641962"
+      },
+      {
+        "file": "src/app/main-layout/main-layout.routes.ts",
+        "hash": "42297243455759417"
+      },
+      {
+        "file": "src/assets/data.json",
+        "hash": "163124041383781214"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "10663924647643126062"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "4927504514031276065"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "5195668842064076916"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "17212958746959192557"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "14967840984865977028"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "8918301549046766373"
+      }
+    ]
+  }
+}
