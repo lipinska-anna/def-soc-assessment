@@ -18,6 +18,6 @@ export class ReportService {
   }
 
   public getReports() {
-    return this.#http.get<SummaryResponse>('/api/report')
+    return this.#http.get<SummaryResponse>('assets/data.json')
   }
 }
